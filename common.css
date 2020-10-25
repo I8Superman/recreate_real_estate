@@ -42,7 +42,9 @@ main {
 }
 
 .house_image {
+    height: 20vw;
     width: 100%;
+
 }
 
 .house_data {
