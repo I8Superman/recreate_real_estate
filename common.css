@@ -41,10 +41,13 @@ main {
     /*margin-bottom: 60px;*/
 }
 
-.house_image {
-    height: 20vw;
-    width: 100%;
+.image_container {
+    overflow: hidden;
+    height: 14vw;
+}
 
+.house_image {
+    width: 100%;
 }
 
 .house_data {

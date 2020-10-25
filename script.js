@@ -21,7 +21,10 @@ function showHouse(oneHouse) {
     const myCopy = template.cloneNode(true);
 
     // Fill out the template:
-    myCopy.querySelector(".house_image").setAttribute('style', 'background:url(' + oneHouse.image.guid + ');');
+    myCopy.querySelector(".house_image").setAttribute("src", oneHouse.image.guid);
+
+    // "http://ssays.dk/kea/common_interest_images/" + city.gsx$heroimage.$t + ".jpg"
+
     myCopy.querySelector(".adress").textContent = oneHouse.title.rendered;
     myCopy.querySelector(".city").textContent = oneHouse.city;
     myCopy.querySelector(".beds").textContent = oneHouse.beds;
