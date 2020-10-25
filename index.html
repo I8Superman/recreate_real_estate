@@ -8,60 +8,30 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <h1>Properties</h1>
+        <div id="sort_buttons">
+            <button>NEWEST</button>
+            <button>POPULAR</button>
+        </div>
+        <button>Add New Property</button>
+    </header>
     <main>
-<!--
-        <article class="houseTemplate">
-            <section class="house_body">
-                <img class="house_image" src="img/Screen%20Shot%202020-10-23%20at%2011.09.12.png" alt="">
-                <h2 class="adress">3355 S Prairie Ave Chicago, IL 60616</h2>
-                <div class="house_specs">
-                    <p>2 BEDS</p>
-                    <p>4 BATHS</p>
-                    <p>200 SQ FEET</p>
-                </div>
-                <button>View Property</button>
-            </section>
-        </article>
-        <article class="houseTemplate">
-            <section class="house_body">
-                <img class="house_image" src="img/Screen%20Shot%202020-10-23%20at%2011.09.12.png" alt="">
-                <h2 class="adress">3355 S Prairie Ave Chicago, IL 60616</h2>
-                <div class="house_specs">
-                    <p>2 BEDS</p>
-                    <p>4 BATHS</p>
-                    <p>200 SQ FEET</p>
-                </div>
-                <button>View Property</button>
-            </section>
-        </article>
-        <article class="houseTemplate">
-            <section class="house_body">
-                <img class="house_image" src="img/Screen%20Shot%202020-10-23%20at%2011.09.12.png" alt="">
-                <h2 class="adress">3355 S Prairie Ave Chicago, IL 60616</h2>
-                <div class="house_specs">
-                    <p>2 BEDS</p>
-                    <p>4 BATHS</p>
-                    <p>200 SQ FEET</p>
-                </div>
-                <button>View Property</button>
-            </section>
-        </article>
--->
     </main>
 
     <template id="houseTemplate">
-        <article class="houseTemplate">
-            <section class="house_body">
-                <img class="house_image" src="" alt="">
+        <article class="house_box">
+            <div class="house_image" style=""></div>
+            <div class="house_data">
                 <h2 class="adress">3355 S Prairie Ave Chicago, IL 60616</h2>
+                <h2 class="city">3355 S Prairie Ave Chicago, IL 60616</h2>
                 <div class="house_specs">
                     <p><span class="beds">2</span><br>BEDS</p>
                     <p><span class="baths">2</span><br>BATH</p>
                     <p><span class="sq_feet">200</span><br>SQ FEET</p>
                 </div>
-                <button>View Property</button>
-            </section>
+            </div>
+            <button>View Property</button>
         </article>
     </template>
 
