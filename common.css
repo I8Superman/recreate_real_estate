@@ -1,0 +1,16 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    display: grid;
+    /*max-width: 1200px;*/
+    /*margin: auto;*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    /*margin-bottom: 60px;*/
+}
